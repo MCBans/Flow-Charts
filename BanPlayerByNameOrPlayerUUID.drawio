@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-16T03:55:58.032Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="cnlIv6Lg5qGfk6G1zen3" version="16.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-16T03:58:21.482Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="h5qW2DU6TeO5HCbxaa_Y" version="16.2.7" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-16" value="Type ( 1 byte ) &lt;br&gt;[1=global,2=local,3=temp]" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="420" y="488.75" width="180" height="62.5" as="geometry" />
+          <mxGeometry x="580" y="488.75" width="180" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-18" target="PeNrBL01U2X6VDr4iYvF-21">
           <mxGeometry relative="1" as="geometry" />
@@ -86,7 +86,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-18" value="Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="480" width="80" height="80" as="geometry" />
+          <mxGeometry x="420" y="480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-21" target="PeNrBL01U2X6VDr4iYvF-24">
           <mxGeometry relative="1" as="geometry">
@@ -95,14 +95,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-21" value="end Time&lt;br&gt;[1 m, 1 minute, 5 days]" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="10" y="488.75" width="180" height="62.5" as="geometry" />
+        <mxCell id="PeNrBL01U2X6VDr4iYvF-21" value="end Time ( max 40 bytes )&amp;nbsp;&lt;br&gt;[1 m, 1 minute, 5 days]" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
+          <mxGeometry x="170" y="488.75" width="180" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-24" value="Acknowledge" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
-          <mxGeometry x="210" y="678.75" width="180" height="62.5" as="geometry" />
+          <mxGeometry x="370" y="678.75" width="180" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-31" value="Rejected" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="598.75" width="130" height="80" as="geometry" />
+          <mxGeometry x="610" y="598.75" width="70" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-35" target="PeNrBL01U2X6VDr4iYvF-10">
           <mxGeometry relative="1" as="geometry" />
@@ -128,9 +128,9 @@
           <mxGeometry x="660" y="215" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-41" value="Rejected" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="90" width="130" height="80" as="geometry" />
+          <mxGeometry x="730" y="90" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-44" target="PeNrBL01U2X6VDr4iYvF-47">
+        <mxCell id="PeNrBL01U2X6VDr4iYvF-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-44" target="PeNrBL01U2X6VDr4iYvF-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="810" y="520" />
@@ -140,27 +140,6 @@
         </mxCell>
         <mxCell id="PeNrBL01U2X6VDr4iYvF-44" value="Player IP&lt;br&gt;( max 15 bytes )" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" vertex="1" parent="1">
           <mxGeometry x="830" y="490" width="180" height="62.5" as="geometry" />
-        </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-47" target="PeNrBL01U2X6VDr4iYvF-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-50" value="Valid IP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PeNrBL01U2X6VDr4iYvF-49">
-          <mxGeometry x="0.176" y="-3" relative="1" as="geometry">
-            <mxPoint x="17" y="3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-52" value="Invalid IP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PeNrBL01U2X6VDr4iYvF-47" target="PeNrBL01U2X6VDr4iYvF-51">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="720" y="639" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-47" value="Type" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="480" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="PeNrBL01U2X6VDr4iYvF-51" value="Rejected" style="triangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="790" y="598.75" width="130" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
